@@ -3,24 +3,24 @@ import { Check } from "lucide-react";
 
 const plans = [
   {
-    name: "Tarefa Única",
-    price: "A partir de 15€",
-    desc: "Para tarefas simples e pontuais.",
-    features: ["1 tarefa incluída", "Entrega rápida", "Relatório do trabalho", "Suporte pós-entrega"],
+    name: "Tarefa Pontual",
+    price: "A partir de 25 €",
+    desc: "Uma intervenção remota simples de até 30 minutos.",
+    features: ["1 intervenção remota", "Entrega rápida", "Relatório do trabalho", "Suporte pós-entrega"],
     highlight: false,
   },
   {
     name: "Pacote Essencial",
-    price: "A partir de 49€",
-    desc: "Para quem precisa de várias tarefas.",
-    features: ["Até 5 tarefas", "Prioridade na execução", "Relatório detalhado", "Suporte dedicado"],
+    price: "A partir de 99 €",
+    desc: "Até cinco pequenas tarefas remotas, num máximo de três horas no total.",
+    features: ["Até 5 pequenas tarefas remotas", "Prioridade na execução", "Relatório detalhado", "Suporte dedicado"],
     highlight: true,
   },
   {
-    name: "Pacote Premium",
-    price: "Sob consulta",
-    desc: "Projetos maiores e personalizados.",
-    features: ["Tarefas ilimitadas", "Máxima prioridade", "Relatório completo", "Suporte contínuo"],
+    name: "Projeto Personalizado",
+    price: "Sob orçamento",
+    desc: "Proposta adaptada ao teu projeto.",
+    features: ["Âmbito e entregáveis definidos", "Prazos e acompanhamento acordados na proposta"],
     highlight: false,
   },
 ];
